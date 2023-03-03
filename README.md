@@ -14,6 +14,8 @@ This project shows how to design a hybrid solution in the AWS cloud. The archite
 - A Network File System (NFS) protocol for all on-premises applications.
 - Low latency and consistent connectivity between on-prem and AWS for high volume data.
 - Optimize for resilience.
+![AWS hybrid](https://user-images.githubusercontent.com/110143245/222612051-2de5b2d6-4d79-4894-b8c4-c711916b0469.png)
+
 
 # Cloud Solution
 - **VPC:** for hosting the resources in AWS. Amazon Virtual Private Cloud (Amazon VPC) enables you to launch AWS resources into a virtual network that you've defined. 
