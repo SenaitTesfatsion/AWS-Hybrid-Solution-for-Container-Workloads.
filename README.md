@@ -1,6 +1,7 @@
 
 # Designing a hybrid solution for container based workloads on AWS
-This project shows how to design a hybrid solution in the AWS cloud. The architecture is designed for a scenario where an organization running container workloads and PostgreSQL database on premises plans to migrate part of the workloads to AWS. The solution implements lift and shift migration strategy since one of the main requirment in the scenario is to move the applicatios  without rewriting the code. The architecture aims to meet the specific requirement of the organization.
+This project outlines the creation of a hybrid solution within the AWS cloud environment. The architecture is designed for a scenario where an organization currently operating container workloads and a PostgreSQL database on-premises, plans to migrate a portion of these workloads to AWS. The solution employs a lift-and-shift migration strategy, prioritizing the seamless transition of applications without necessitating code rewriting. The architecture is meticulously crafted to fulfill the precise requirements of the organization.
+
 # Requirments
 - Run Containers on AWS.
 - The organization containers will be running internal applications that don’t require inbound communication from the internet. 
@@ -9,7 +10,7 @@ This project shows how to design a hybrid solution in the AWS cloud. The archite
 - Have SSH access to underlying instances.
 - Host a PostgreSQL database on AWS.
 - Use common orchestration tools across both on-prem and the cloud.
-- Store data generated on premises in AWS with minimal refactoring.
+- Store data generated on-premises in AWS with minimal refactoring.
 - The containers running on AWS will need to access that data.
 - A Network File System (NFS) protocol for all on-premises applications.
 - Low latency and consistent connectivity between on-prem and AWS for high volume data.
